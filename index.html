@@ -68,7 +68,7 @@
         scene.add(plane);
 
     const loader = new THREE.OBJLoader();
-    loader.load('Model1.obj', function (object) {
+    loader.load('chair.obj', function (object) {
         object.castShadow = true; // ✅ วัตถุนี้สร้างเงา
         // ตั้งค่า castShadow กับทุก mesh ใน object
         object.traverse(function (child) {
